@@ -19,28 +19,7 @@ Features
 
 Architecture
 ------------
-Input PCAP
-     │
-     ▼
-PCAP Reader
-     │
-     ▼
-Packet Parser
-     │
-     ▼
-Protocol Analysis
-     │
-     ▼
-TLS SNI Extraction
-     │
-     ▼
-Application Classification
-     │
-     ▼
-Filtering Rules
-     │
-     ▼
-Output PCAP + Statistics
+Input PCAP --> PCAP Reader --> Packet Parser --> Protocol Analysis --> TLS SNI Extraction --> Application Classification --> Filtering Rules --> Output PCAP + Statistics
 
 Tech Stack
 ----------
