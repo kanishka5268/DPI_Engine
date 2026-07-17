@@ -5,10 +5,9 @@ A lightweight Deep Packet Inspection (DPI) engine developed in C++17 for analyzi
 This project demonstrates practical concepts in computer networks, packet parsing, protocol analysis, and systems programming using modern C++.
 
 ## Features
---------
 
-• Reads offline PCAP capture files
-• Parses Ethernet, IPv4, TCP and UDP packets
+- Reads offline PCAP capture files
+- Parses Ethernet, IPv4, TCP and UDP packets
 • Extracts payload from network packets
 • Performs TLS Client Hello inspection
 • Extracts Server Name Indication (SNI)
