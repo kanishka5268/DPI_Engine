@@ -208,4 +208,6 @@ filtered_output.pcap
 - Multi-threaded packet processing
 - Interactive command-line interface
 
-This project is intended for educational and learning purposes.
+---
+
+-By Kanishka Sakunia
