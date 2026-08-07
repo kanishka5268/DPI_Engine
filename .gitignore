@@ -1,26 +1,23 @@
-# Build directory
-build/
+# VS Code
+.vscode/
 
 # Executables
 *.exe
-*.out
 
 # Object files
 *.o
 *.obj
 
-# CMake generated files
-CMakeCache.txt
+# Build folders
+build/
+cmake-build-*/
+
+# CMake
 CMakeFiles/
+CMakeCache.txt
 cmake_install.cmake
+Makefile
 compile_commands.json
 
-# Generated PCAPs
-output.pcap
-
-# IDE files
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
+# Windows
+*.pdb
